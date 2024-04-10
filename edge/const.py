@@ -49,7 +49,7 @@ PAYLOAD_T1 = """
 PAYLOAD_T2 = """
 {
     "body": {
-        "date": $date,
+        "date": "$date",
         "sid": $sid,
         "mode": 1
     },
