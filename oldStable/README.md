@@ -1,4 +1,4 @@
-<img src="https://github.com/dmslabsbr/hoymiles/raw/master/oldStable/logo.png" alt="" width="200" />
+<img src="https://github.com/unit-system-fr/hoymiles/raw/master/oldStable/logo.png" alt="" width="200" />
 
 # HoyMiles Solar Data Gateway Add-on
 Application to read Hoymiles Gateway Solar Data using unofficial API
@@ -36,7 +36,7 @@ Before run you need to install:
 
 
 ```bash
-git clone https://github.com/dmslabsbr/hoymiles.git
+git clone https://github.com/unit-system-fr/hoymiles.git
 cd hoymiles
 python3 -m venv ./hoymiles/
 source ./bin/activate
@@ -47,7 +47,7 @@ pip3 install python-dateutil
 
 My solar panels communicate with the internet using a DTU-W100 gateway.
 
-<img src="https://github.com/dmslabsbr/hoymiles/raw/master/img/icon.png" alt="" width="300" />
+<img src="https://github.com/unit-system-fr/hoymiles/raw/master/img/icon.png" alt="" width="300" />
 
 But it will probably work with any device that uses the [global.hoymiles.com](https://global.hoymiles.com/) Website. It was tested with DTU-PRO also.
 
@@ -57,11 +57,11 @@ I invite everyone to help in the this tool development.
 
 ## Screenshots
 
-<img src="https://github.com/dmslabsbr/hoymiles/blob/master/img/Hass1.png?raw=true" alt="" width="400" />
+<img src="https://github.com/unit-system-fr/hoymiles/blob/master/img/Hass1.png?raw=true" alt="" width="400" />
 
-<img src="https://github.com/dmslabsbr/hoymiles/blob/master/img/Hass2.png?raw=true" alt="" width="400" />
+<img src="https://github.com/unit-system-fr/hoymiles/blob/master/img/Hass2.png?raw=true" alt="" width="400" />
 
-<img src="https://github.com/dmslabsbr/hoymiles/blob/master/img/Hass3.png?raw=true" alt="" width="400" />
+<img src="https://github.com/unit-system-fr/hoymiles/blob/master/img/Hass3.png?raw=true" alt="" width="400" />
 
 
 
