@@ -334,7 +334,7 @@ class Hoymiles(object):
         )
 
         solar = self.send_payload(GET_DATA_API, header, payload)
-        if "status" in solar.keys():
+        if isinstance(solar, dict) and "status" in solar.keys():
             return int(solar["status"]), solar["data"]
         return -1, {}
 
