@@ -434,7 +434,7 @@ class Hoymiles(object):
                                 retv["status"], retv["data"] = self.request_solar_data()
                         elif retv["status"] == "3":
                             self.logger.error("Wrong plant id!!")
-                            sys.exit(0)
+                            return {}
                 else:
                     self.logger.error("I can't connect!")
             except Exception as err:
