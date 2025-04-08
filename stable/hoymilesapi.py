@@ -297,7 +297,7 @@ class Hoymiles(object):
 
         header = HEADER_DATA
         header['Cookie'] = COOKIE_UID + "; hm_token=" + self.connection.token + \
-            "; Path=/; Domain=.global.hoymiles.com;" + \
+            "; Path=/; Domain=.previous.hoymiles.com;" + \
             f"Expires=Sat, 30 Mar {date.today().year + 1} 22:11:48 GMT;" + "'"
 
         solar = self.send_payload(GET_DATA_API, header, payload)
@@ -361,7 +361,7 @@ class Hoymiles(object):
         payload = template.substitute(id=self.plant_id)
         header = HEADER_DATA
         header['Cookie'] = COOKIE_UID + "; hm_token=" + self.connection.token + \
-            "; Path=/; Domain=.global.hoymiles.com;" + \
+            "; Path=/; Domain=.previous.hoymiles.com;" + \
             f"Expires=Sat, 30 Mar {date.today().year + 1} 22:11:48 GMT;" + "'"
         retv = self.send_payload(GET_ALL_DEVICE_API, header, payload)
 
@@ -416,7 +416,7 @@ class Hoymiles(object):
         payload = template.substitute(id=self.plant_id)
         header = HEADER_DATA
         header['Cookie'] = COOKIE_UID + "; hm_token=" + self.connection.token + \
-            "; Path=/; Domain=.global.hoymiles.com;" + \
+            "; Path=/; Domain=.previous.hoymiles.com;" + \
             f"Expires=Sat, 30 Mar {date.today().year + 1} 22:11:48 GMT;" + "'"
         retv = self.send_payload(STATION_FIND, header, payload)
         if 'status' in retv.keys() and retv['status'] == '0':
@@ -429,7 +429,7 @@ class Hoymiles(object):
         """
         header = HEADER_DATA
         header['Cookie'] = COOKIE_UID + "; hm_token=" + self.connection.token + \
-            "; Path=/; Domain=.global.hoymiles.com;" + \
+            "; Path=/; Domain=.previous.hoymiles.com;" + \
             f"Expires=Sat, 30 Mar {date.today().year + 1} 22:11:48 GMT;" + "'"
         for micro in self.micro_list:
             template = Template(PAYLOAD_DETAILS)

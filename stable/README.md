@@ -45,7 +45,7 @@ My solar panels communicate with the internet using a DTU-W100 gateway.
 
 <img src="https://github.com/unit-system-fr/hoymiles/raw/master/img/icon.png" alt="" width="300" />
 
-But it will probably work with any device that uses the [global.hoymiles.com](https://global.hoymiles.com/) Website. It was tested with DTU-PRO also.
+But it will probably work with any device that uses the [previous.hoymiles.com](https://previous.hoymiles.com/) Website. It was tested with DTU-PRO also.
 
 
 ## PS:
